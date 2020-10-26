@@ -141,18 +141,18 @@
           <form method = "post">
 
             <div class = "input_group">
-              <input type = "text" id = 'fname' placeholder="Name">
-              <input type = "text" id = 'Sname' placeholder="Surname">
+              <input type = "text" name = "fname" id = 'fname' placeholder="Name">
+              <input type = "text" name = "Sname" id = 'Sname' placeholder="Surname">
             </div>
 
             <div class = "input_group">
-              <input type = "text" id = 'phoneNumber' placeholder="Phone Number">
-              <input type = "email" id = 'email' placeholder="Email">
+              <input type = "text"  name = "phoneNumber" id = 'phoneNumber' placeholder="Phone Number">
+              <input type = "email" name = "email" id = 'email' placeholder="Email">
             </div>
 
             <div class = "text_field">
               <form method = "post">
-                <textarea rows = "4" id = 'message' placeholder="Type Message"></textarea>
+                <textarea rows = "4" name = "message" id = 'message' placeholder="Type Message"></textarea>
                   <br/>
               <input class = "submit_button" type="button" value="Send Email" onclick="sendEmail()"/>
               </form>
