@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kudakwashe Henry Mushunje CV</title>
+    <link href = "CV2.jpg" type = "image/jpg" rel = "shortcut icon">
+    <link href = "./cv-style.css" type = "text/css" rel = "stylesheet">
+    <script src ="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src = "index.js"></script>
+  </head>
+
+  <body>
+
+      <div class = "content">
+        <h1>Curriculum Vitae</h1>
+
+        <br/>
+
+        <div class = "headshot">
+          <img class = "image" src = "images/CV photo.jpg" alt = "picture of Kudakwashe Mushunje">
+        </div>
+
+
+        <div class = "personal-info">
+          <h3>Personal Info:</h3>
+          <p>
+          Name: <strong>Kudakwashe Henry</strong><br/>
+          Surname: <strong>Mushunje</strong><br/>
+          Student Reg No.: <strong>R191584H</strong><br/>
+          E-mail Address: <strong>mushunjek@gmail.com</strong><br/>
+          Phone Number: <strong>+263 78 574 8068</strong><br/>
+          </p>
+        </div>
+
+        <h3>Skills, Attributes & Competences:</h3>
+
+        <div class = "skills_and_attributes">
+          <img src = "images/communication-light.jpeg">
+          <p><b>Communication</b></p>
+          <small>Excellent Written and Verbal Communication</small>
+        </div>
+
+        <div class = "skills_and_attributes">
+            <img src = "images/Programming-img.jpg">
+            <p><b>Programming</b></p>
+            <small>In multiple programming languages</small>
+          </div>
+
+        <div class = "skills_and_attributes">
+          <img src = "images/Office logo.jpg">
+          <p><b>MS Office</b></p>
+          <small>Use of Excel, Word, and PowerPoint</small>
+        </div>
+
+        <div class = "skills_and_attributes">
+            <img src = "images/analytical-skills.png">
+            <p><b>Analytical Skills</b></p>
+            <small>Able to break down and solve problems</small>
+          </div>
+
+        <h3>Programming languages:</h3>
+
+        <div class = "languages">
+          <img src = "images/c-image.png">
+
+          <img src = "images/c++-image.jpg">
+
+          <img src = "images/c_sharp-image.png">
+
+          <img src = "images/python-image.png">
+
+          <br/> </br>
+
+          <img src = "images/java-image.jpg">
+
+          <img src = "images/php-image.png">
+
+          <img src = "images/javascript-image.png">
+
+          <img src = "images/html_css-image.png">
+        </div>
+
+
+        <div class = "education">
+          <h3>Education:</h3>
+          <ul>
+            <li>Bachelors in Business Studies and Information Technology (Year Two: Catholic University)</li>
+            <li>Advanced Levels (Prince Edward Boys' High School)</li>
+            <li>Ordinary Levels (Prince Edward Boys' High School)</li>
+          </ul>
+
+        </div>
+
+        <div class = "achievements">
+          <h3>Achievements:</h3>
+          <ul>
+            <li>Completed High school by age <em>16</em> by successfully undertaking 'O' levels in two years and 'A' levels in one year</li>
+            <li>Submitted multiple short speculative fiction stories to <em>Asimov's Science Fiction</em>, <br/>
+                <em>Analog Science Fiction and Fact</em> as well as <em>Daily Science Fiction magazines</em>.</li>
+            <li>Assisted with the Founding and Incorporation of <a href = "https://thcc.co.zw/", target = "_blank"><b>The Human Capital Connection (Pvt) Ltd</b></a>, one of Zimbabwe's leading business and human resource consultancies.</li>
+          </ul>
+        </div>
+
+        <h3>Interests:</h3>
+
+        <div class = "interests">
+            <img src = "images/chess.jpg">
+            <p><b>Chess</b></p>
+            <small></small>
+          </div>
+
+          <div class = "interests">
+              <img src = "images/quill.jpg">
+              <p><b>Writing</b></p>
+              <small></small>
+            </div>
+
+            <div class = "interests">
+                <img src = "images/economics.png">
+                <p><b>Economics</b></p>
+                <small></small>
+              </div>
+
+              <div class = "interests">
+                  <img src = "images/galaxy.png">
+                  <p><b>Space</b></p>
+                  <small></small>
+                </div>
+
+        <div class = "references">
+          <h3>References:</h3>
+          <ul>
+            <li>Dr. Sora (Headmaster Prince Edward Boys’ High School) <strong>+263 77 321 7420</strong></li>
+            <li>Mr. Manga (Business Ethics Lecturer Catholic University of Zimbabwe) <strong>+263 77 242 4344</strong></li>
+            <li>Mr. Kwendesa (Dean of Students Catholic University of Zimbabwe) <strong>+263 78 507 4634</strong></li>
+          </ul>
+        </div>
+
+        <h3>Contact Me:</h3>
+
+        <div class = "contact">
+          <form method = "post">
+
+            <div class = "input_group">
+              <input type = "text" name = "name" id = 'fname'  placeholder="Name">
+              <input type = "text"  name ="surname" id = 'Sname'  placeholder="Surname">
+            </div>
+
+            <div class = "input_group">
+              <input type = "text" name = "phoneNumber" id = 'phoneNumber'  placeholder="Phone Number">
+              <input type = "email"  name = "email" id = 'email' placeholder="Email">
+            </div>
+
+            <div class = "text_field">
+              <form method = "post">
+                <textarea name = "message" id = 'message' rows = "4" placeholder="Type Message"></textarea>
+              </form>
+
+              <br/>
+
+              <input class = "submit_button" type="button" value="Send Email" onclick="sendEmail()"/>
+            </div>
+          </form>
+        </div>
+
+        <footer>
+          <div class = "footer_section">
+            <b>Designed by Kudakwashe Henry Mushunje</b>
+              <br/>
+            <b>Art by <a href = "https://nissakauppila.com/" target = "_blank">Nissa Kauppila</a></b>
+          </div>
+        </footer>
+      </div>
+
+  </body>
+
+</html>
