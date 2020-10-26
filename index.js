@@ -14,10 +14,10 @@ function sendEmail(){
   Email.send({
 	Host: "smtp.gmail.com",
   Security: 'ssl',
-	Username : "r191584h@cuz.ac.zw",
-	Password : "ThedarklordMorgoth",
+	Username : "contactKudaMushunje@gmail.com",
+	Password : "wordpassmus092",
 	To : "mushunjek@gmail.com",
-	From : "r191584h@cuz.ac.zw",
+	From : "contactKudaMushunje@gmail.com",
 	Subject : "CV Website Contact from: " + String(firstName) + " " + String(surname),
 	Body : String(myMessage) + "<br><br>Phone Number: " + String(phoneNumber) + "<br><br>Email Address: " +  String(email),
 	}).then(function(message){
