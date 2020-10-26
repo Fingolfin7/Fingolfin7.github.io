@@ -5,7 +5,6 @@ function sendEmail(){
   var phoneNumber = document.getElementById('phoneNumber').value;
   var email = document.getElementById('email').value;
   var myMessage = document.getElementById('message').value;
-  var myMessageStr = myMessage.outerHTMl;
 
   console.log(firstName + " " + surname);
   console.log(email);
