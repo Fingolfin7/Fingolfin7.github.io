@@ -37,7 +37,7 @@ strong{
   color: black;
 }
 
-#error_message{
+.error_message_styling{
  margin-bottom: 20px;
  padding: 0px;
  color: white;
