@@ -43,7 +43,7 @@ else if(email.indexOf("@") == -1){//checking for the @ symbol on the email addre
   	Host: "smtp.gmail.com",
     	Security: 'ssl',
   	Username : "contactKudaMushunje@gmail.com",
-  	Password : "wordpassmus092",
+  	Password : "contactKuda",
   	To : "mushunjek@gmail.com",
   	From : "contactKudaMushunje@gmail.com",
   	Subject : "CV Website Contact from: " + String(firstName) + " " + String(surname),
